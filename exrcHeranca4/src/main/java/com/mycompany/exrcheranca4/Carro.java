@@ -1,0 +1,16 @@
+
+package com.mycompany.exrcheranca4;
+
+
+public class Carro extends Veiculo {
+    private int numeroPortas;
+
+    public int getNumeroPortas() { return numeroPortas; }
+    public void setNumeroPortas(int numeroPortas) { this.numeroPortas = numeroPortas; }
+
+    @Override
+    public void exibirDados() {
+        super.exibirDados();
+        System.out.println("Portas: " + numeroPortas);
+    }
+}
